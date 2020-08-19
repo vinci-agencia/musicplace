@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" class="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" class="">
+    <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet'>
+
+
+    <title>Music Place</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid bg-head-top visible-md">
+            <div class="container">
+                <div class="row head-top">
+                    <div class="col-sm-4">
+                        <div class="texto-head-top"><i class="fa fa-plane" aria-hidden="true"></i> Free Shipping On All Orders Over $100</div>
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 head-top-direito text-right">
+                        <div class="Menu-head-right texto-head-top"><i class="fa fa-user" aria-hidden="true"></i> <a href="#" class="link-head-top">Login</a></div>
+                        <div class="Menu-head-left texto-head-top"><i class="fa fa-phone" aria-hidden="true"></i> Support Anytime 123-456-7890 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="logo text-center">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.png" class="d-inline-block align-top" alt="">
+                </a>
+            </div>
+        </div>
+        <hr />
+    </header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light Menu-site">
+            <div class="container">
+                <div class="row  w-100 justify-content-sm-center">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-7">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <ul class="nav-link-hover dropdown-toggle">
+                                        <li class="nav-item"><a class="dropdown-item" href="#">home 1</a></li>
+                                        <li class="nav-item"><a class="dropdown-item" href="#">home 2</a></li>
+                                    </ul>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Features <span class="sr-only">(current)</span></a>
+                                    <ul class="nav-link-hover">
+                                        <li class="nav-item active"><a class="dropdown-item" href="#">Action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Band & Orchestra <span class="sr-only">(current)</span></a>
+                                    <ul class="nav-link-hover">
+                                        <li class="nav-item active"><a class="dropdown-item" href="#">Action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Recording <span class="sr-only">(current)</span></a>
+
+                                    <ul class="nav-link-hover">
+                                        <li class="nav-item active"><a class="dropdown-item" href="#">Action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">DJ & Karaoke <span class="sr-only">(current)</span></a>
+                                    <ul class="nav-link-hover">
+                                        <li class="nav-item active"><a class="dropdown-item" href="#">Action</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sale</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <button class="btn-menu botao-compra"><i class="fa fa-shopping-cart icone-menu" aria-hidden="true"></i></button>
+                        <div class="input-group md-form form-sm form-2 pl-0 box-pesquisa">
+                            <input class="form-control-menu my-0 py-1 red-border caixa-pesquisa" type="text" placeholder="Search" aria-label="Search">
+                            <div class="input-group-append">
+                                <button class="btn-menu btn-outline-success my-2 my-sm-0 botao-pesquisa-aberto" type="submit"><i class="fa fa-search text-grey "aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active slider-home">
+                <img src="./img/bgSlider.jpg" class="d-block w-100" alt="...">
+                <div class="Box-slider-home">
+                    <div class="Box-slider-home-direita text-center">
+                        <h2>Electronic Drum<br /> Set Natural</h2>
+                        <p class="Box-texto-slider">Designs based on input from professional players such as<br> Vinnie Paul, Andy Selway, and many more</p>
+                        <button class="btn botao-red-slider">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/bgSlider2.jpg" class="d-block w-100" alt="...">
+                <div class="Box-slider-home">
+                    <div class="Box-slider-home-direita text-center">
+                        <h2>Get 25%</span> off<br> to our products </h2>
+                        <p class="Box-texto-slider">Designs based on input from professional players such as<br> Vinnie Paul, Andy Selway, and many more</p>
+                        <button class="btn botao-red-slider">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row box-home">
+                <div class="col-sm">
+                    <div class="Caixa-home-01 sc_intro text-left">
+                        <span class="Espaco-vazio"></span>
+                        <span class="Espaco-vazio"></span>
+                        <span class="Espaco-vazio"></span>
+                        <p class="Sub-Titulo">Keyboards & Digital Pianos</p>
+                        <h3 class="Titulo">New In Keyboards</h3>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="Caixa-home-02 sc_intro text-center">
+                        <span class="Espaco-vazio"></span>
+                        <span class="Espaco-vazio"></span>
+                        <h3 class="Titulo">Musican's<br>Lifestyle</h3>
+                        <p class="Sub-Titulo2">Shop Now</p>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="Caixa-home-03 sc_intro">
+
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="Caixa-home-04 sc_intro text-center">
+                        <span class="Espaco-vazio"></span>
+                        <span class="Espaco-vazio"></span>
+                        <h3 class="Titulo">Mega Sale</h3>
+                        <p class="Sub-Titulo">On Every Brand</p>
+                        <button class="btn botao-black">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="Titulo-Sessao">
+            <h2 class="sc_section_title sc_item_title sc_item_title_without_descr"><span class="title-hr">Best Sellers</span></h2>
+            </hr>
+            <!--filters-->
+            <div id="project-terms">
+                <a id="all" class="btn btn-default active" href="#">All</a>
+                <a id="3d" class="btn btn-default" href="#">3D</a>
+                <a id="interactive" class="btn btn-default" href="#">Interactive</a>
+                <a id="websites" class="btn btn-default" href="#">Websites</a>
+            </div>
+
+            <!--main carousel element-->
+            <div class="row box-produto">
+                <div id="projects-carousel" class="owl-carousel">
+                    <div class="project 3d">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project interactive">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project interactive">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--element to hold filtered out items-->
+            <div id="projects-hidden" class="hide"></div>
+
+            <div class="row box-produto">
+                <div class="col-sm">
+                    <div class="Carrousel-home text-center">
+                        <div class="Carroussel-home-slider">
+                            <div>
+                                <img src="./img/slider/1-1.png" alt="" class="">
+                            </div>
+                            <div>
+                                <img src="./img/slider/2-1.png" alt="" class="">
+                            </div>
+                            <div>
+                                <img src="./img/slider/3-1.png" alt="" class="">
+                            </div>
+                            <div>
+                                <img src="./img/slider/4-1.png" alt="" class="">
+                            </div>
+                            <div>
+                                <img src="./img/slider/5-1.png" alt="" class="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row box3-home">
+                <div class="col-sm-4">
+                    <div class="Caixa2-home-01 sc_intro text-center">
+                        <span class="Espaco-vazio"></span>
+                        <span class="Espaco-vazio"></span>
+                        <h3 class="Titulo">Save Up To 30%</h3>
+                        <p class="Sub-Titulo">On Select Recording Accessories</p>
+                        <button class="btn botao-red">SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="Caixa2-home-02 sc_intro">
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="Caixa2-home-03 sc_intro">
+                        <span class="Espaco-vazio"></span>
+                        <span class="Espaco-vazio"></span>
+                        <span class="Espaco-vazio"></span>
+                        <p class="Sub-Titulo">Plug-And-Play Recording At Home</p>
+                        <h3 class="Titulo">Recording<br>Solutions</h3>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="Titulo-Sessao">
+            <h2 class="sc_section_title sc_item_title sc_item_title_without_descr"><span class="title-hr">Featured Items</span></h2>
+            </hr>
+            <!--filters-->
+            <div id="project-terms2">
+                <a id="all" class="btn btn-default active" href="#">All</a>
+                <a id="3d" class="btn btn-default" href="#">3D</a>
+                <a id="interactive" class="btn btn-default" href="#">Interactive</a>
+                <a id="websites" class="btn btn-default" href="#">Websites</a>
+            </div>
+
+            <!--main carousel element-->
+            <div class="row box-produto">
+                <div id="projects-carousel2" class="owl-carousel2">
+                    <div class="project2 3d">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project2 websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project2 websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project2 interactive">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project2 websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project2 interactive">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project2 websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                    <div class="project2 websites">
+                        <div class="Caixa-Produto">
+                            <img src="./img/7.jpg" alt="">
+                            <h3 class="Titulo-produto">Tama S.L.P. Big Black Steel Snare Drum</h3>
+                            <p class="Valor-produto">$650.75 – $700.75</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--element to hold filtered out items-->
+            <div id="projects-hidden2" class="hide"></div>
+            <span class="Espaco-vazio"></span>
+            <span class="Espaco-vazio"></span>
+            <div class="row Box-slider">
+                <div class="col-sm">
+                </div>
+                <div class="col-sm text-center">
+                    <h3>Music Workshop</h3>
+                    <p class="Sub-titulo-red">Free Workhops and Classes</p>
+                    <p class="">The Workshops Series was created to help people of all levels learn about the instruments and gear they can use to make the music they love.</p>
+                    <div class="Divisao-botoes">
+                        <button type="button" class="btn btn-red">Register now</button>
+                        <a href="" class="btn botao-claro">
+                            <i class="fa fa-play botao-play" aria-hidden="true"></i>
+                            <p>Play Video</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="Titulo-Sessao">
+            <h2 class="sc_section_title sc_item_title sc_item_title_without_descr"><span class="title-hr">What’s New</span></h2>
+            </hr>
+            <div class="row box-produto">
+                <div class="col-sm">
+                    <div class="Caixa-News">
+                        <div class="Caixa-News-esquerda"><img src="./img/image-3-340x420.jpg" alt=""></div>
+                        <div class="Caixa-News-direita">
+                            <h3 class="Titulo-news">Marshall Woburn Bluetooth Speaker</h3>
+                            <p class="post_info"><a href="#" class="">Julho 17, 2020</a></p>
+                            <p class="texto">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusa...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="Caixa-News">
+                        <div class="Caixa-News-esquerda"><img src="./img/news-2-340x420.jpg" alt=""></div>
+                        <div class="Caixa-News-direita">
+                            <h3 class="Titulo-news">Marshall Woburn Bluetooth Speaker</h3>
+                            <p class="post_info">Julho 17, 2020</p>
+                            <p class="texto">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusa...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="Caixa-News">
+                        <div class="Caixa-News-esquerda"><img src="./img/news-1-340x420.jpg" alt=""></div>
+                        <div class="Caixa-News-direita">
+                            <h3 class="Titulo-news">Marshall Woburn Bluetooth Speaker</h3>
+                            <p class="post_info">Julho 17, 2020</p>
+                            <p class="texto">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusa...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="Espaco-vazio"></span>
+            <span class="Espaco-vazio"></span>
+            <div class="row">
+                <div class="col-sm Box-news text-center">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <br />
+                    <p class="Texto-news">Subscribe to our newsletter to get latest news about our products, events and sales.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control-news" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> <button type="submit" class="btn btn-news"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                            </button>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="col-sm Box-testemunhos text-center">
+                    <div class="Carroussel-testemunho-slider">
+                        <div>
+                            <p class="Texto-news">Subscribe to our newsletter to get latest news about our products, events and sales.</p>
+                            <div class="box-testemunho-imagem">
+                                <img src="../musicplace/img/slider/testi-3-75x75.jpg" alt="" class="ImagemRedonda">
+                                <p class="Titulo-imagem-testemunho">Kelley Webb</p>
+                                <p>Signer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="Texto-news">Subscribe to our newsletter to get latest news about our products, events and sales.</p>
+                            <div class="box-testemunho-imagem">
+                                <img src="../musicplace/img/slider/testi-3-75x75.jpg" alt="" class="ImagemRedonda">
+                                <p class="Titulo-imagem-testemunho">Kelley Webb</p>
+                                <p>Signer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="Texto-news">Subscribe to our newsletter to get latest news about our products, events and sales.</p>
+                            <div class="box-testemunho-imagem">
+                                <img src="../musicplace/img/slider/testi-3-75x75.jpg" alt="" class="ImagemRedonda">
+                                <p class="Titulo-imagem-testemunho">Kelley Webb</p>
+                                <p>Signer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row box-Items">
+                    <div class="col-sm">
+                        <div class="Caixa-News2">
+                            <h3 class="Titulo-news">Featured Items</h3>
+                            <div class="Caixa-News-esquerda2"><img src="./img/image-3-340x420.jpg" alt=""></div>
+                            <div class="Caixa-News-direita2">
+                                <h4 class="Sub-titulo-news">Tama S.L.P. Big Black Steel Snare Drum</h4>
+                                <p class="Valor-produto-news">R$ 229,00</p>
+                            </div>
+                        </div>
+                        <hr class="Divisor">
+                        <div class="Caixa-News2">
+                            <div class="Caixa-News-esquerda2"><img src="./img/image-3-340x420.jpg" alt=""></div>
+                            <div class="Caixa-News-direita2">
+                                <h4 class="Sub-titulo-news">Tama S.L.P. Big Black Steel Snare Drum</h4>
+                                <p class="Valor-produto-news">R$ 229,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="Caixa-News2">
+                            <h3 class="Titulo-news">Recent Reviews</h3>
+                            <div class="Caixa-News-esquerda2"><img src="./img/image-3-340x420.jpg" alt=""></div>
+                            <div class="Caixa-News-direita2">
+                                <h4 class="Sub-titulo-news">Tama S.L.P. Big Black Steel Snare Drum</h4>
+                                <p class="Valor-produto-news">R$ 229,00</p>
+                            </div>
+                        </div>
+                        <hr class="Divisor">
+                        <div class="Caixa-News2">
+                            <div class="Caixa-News-esquerda2"><img src="./img/image-3-340x420.jpg" alt=""></div>
+                            <div class="Caixa-News-direita2">
+                                <h4 class="Sub-titulo-news">Tama S.L.P. Big Black Steel Snare Drum</h4>
+                                <p class="Valor-produto-news">R$ 229,00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="Caixa-News2">
+                            <h3 class="Titulo-news">New Arrivals</h3>
+                            <div class="Caixa-News-esquerda2"><img src="./img/image-3-340x420.jpg" alt=""></div>
+                            <div class="Caixa-News-direita2">
+                                <h4 class="Sub-titulo-news">Tama S.L.P. Big Black Steel Snare Drum</h4>
+                                <p class="Valor-produto-news">R$ 229,00</p>
+                            </div>
+                        </div>
+                        <hr class="Divisor">
+                        <div class="Caixa-News2">
+                            <div class="Caixa-News-esquerda2"><img src="./img/image-3-340x420.jpg" alt=""></div>
+                            <div class="Caixa-News-direita2">
+                                <h4 class="Sub-titulo-news">Tama S.L.P. Big Black Steel Snare Drum</h4>
+                                <p class="Valor-produto-news">R$ 229,00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm">
+                        <img src="./img/news-1-340x420.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fa fa-chevron-up"></i></a>
+    <footer class="bg-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <ul id="menu-footer" class="menu_footer_nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Band & Orchestra</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Recording</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DJ & Karaoke</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sale</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" class=""><span class="Box-midias"><i class="fa fa-facebook" aria-hidden="true"></span></i></a>
+                    <a href="#" class=""><span class="Box-midias"><i class="fa fa-instagram" aria-hidden="true"></span></i></a>
+                    <a href="#" class=""><span class="Box-midias"><i class="fa fa-twitter" aria-hidden="true"></span></i></a>
+                    <a href="#" class=""><span class="Box-midias"><i class="fa fa-facebook" aria-hidden="true"></span></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./carrousel.js"></script>
+    <script src="./slider-filter.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+</body>
+
+</html>
