@@ -1316,6 +1316,8 @@ footer.bg-footer {
     padding: 3.57em;
     position: relative;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .Sidebar .sidebar-interno {
