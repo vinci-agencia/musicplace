@@ -48,9 +48,9 @@ $(window).ready(function() {
 });
 
 function showProjectsbyCat2(cat) {
-    if (cat == 'all') {
+    if (cat == 'all2') {
         $('#projects-hidden2 .project2').each(function() {
-            var owl = $(".owl-carousel2").data('owlCarousel2');
+            var owl = $(".owl-carousel2").data('owlCarousel');
             elem = $(this).parent().html();
 
             owl.addItem(elem);
@@ -58,7 +58,7 @@ function showProjectsbyCat2(cat) {
         });
     } else {
         $('#projects-hidden2 .project2.' + cat).each(function() {
-            var owl = $(".owl-carousel2").data('owlCarousel2');
+            var owl = $(".owl-carousel2").data('owlCarousel');
             elem = $(this).parent().html();
 
             owl.addItem(elem);
@@ -66,7 +66,8 @@ function showProjectsbyCat2(cat) {
         });
 
         $('#projects-carousel2 .project2:not(.project2.' + cat + ')').each(function() {
-            var owl = $(".owl-carousel2").data('owlCarousel2');
+            var owl = $(".owl-carousel2").data('owlCarousel');
+
             targetPos = $(this).parent().index();
             elem = $(this).parent();
 
