@@ -829,6 +829,52 @@ hr.Titulo-Sessao {
     margin: 10px 10px;
 }
 
+.Caixa-Produto-interno {
+    margin: 0px 15px 30px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Caixa-Produto-interno .botao-produto {
+    background: #141618;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 1.001em 4.2em;
+    font-family: "Hind", sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    float: right;
+    width: 100%;
+}
+
+.Caixa-Produto-interno .botao-produto:hover {
+    background: #ff0000;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 1.001em 4.2em;
+    font-family: "Hind", sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    float: right;
+    width: 100%;
+}
+
+.Caixa-Produto-interno p.Valor-produto {
+    font-size: 14px !important;
+    line-height: 18px !important;
+    color: #e21818 !important;
+    font-weight: 600 !important;
+    padding: 0px 0px 0px 0px !important;
+    border-radius: 0px 0px 0px 0px !important;
+    background: transparent !important;
+    z-index: 2 !important;
+    display: block;
+    font-family: Hind !important;
+    text-transform: capitalize !important;
+}
+
 h3.Titulo-produto {
     font-size: 14px !important;
     line-height: 18px !important;
@@ -1292,7 +1338,6 @@ footer.bg-footer {
 .Title {
     background: #141618;
     padding: 30px 0px;
-    margin: 0px 0px 30px 0px;
 }
 
 .Title h1 {
@@ -1318,19 +1363,21 @@ footer.bg-footer {
     height: auto;
     display: flex;
     flex-direction: column;
+    width: 370px;
+    margin-left: 19px;
 }
 
-.Sidebar .sidebar-interno {
+.Sidebar .sidebar-conteudo {
     margin-bottom: 4.7em;
 }
 
-.Sidebar .sidebar-interno h5 {
+.Sidebar .sidebar-conteudo h5 {
     color: #141618 !important;
     border-bottom: solid 1px #141618;
     padding-bottom: 0.6em;
 }
 
-.Sidebar .sidebar-interno .botao-red {
+.Sidebar .sidebar-conteudo .botao-red {
     background: #ff0000;
     color: #fff;
     font-size: 10px;
@@ -1342,8 +1389,8 @@ footer.bg-footer {
     float: right;
 }
 
-.Sidebar .sidebar-interno .botao-red:hover {
-    background: #ff0000;
+.Sidebar .sidebar-conteudo .botao-red:hover {
+    background: #141618;
     color: #fff;
     font-size: 10px;
     font-weight: 600;
@@ -1354,16 +1401,16 @@ footer.bg-footer {
     float: right;
 }
 
-.Sidebar .sidebar-interno input.form-sidebar {
+.Sidebar .sidebar-conteudo input.form-sidebar {
     border: none !important;
-    width: 87.3% !important;
+    width: 87.6% !important;
     border-bottom: 1px solid #141618 !important;
     float: left;
     background: #fafafa;
     padding: 10px 10px 7px 0px;
 }
 
-.Sidebar .sidebar-interno .botao-form-sidebar {
+.Sidebar .sidebar-conteudo .botao-form-sidebar {
     border: 1px solid #141618;
     background: #141618;
     padding: 8px;
@@ -1371,8 +1418,79 @@ footer.bg-footer {
     float: right;
 }
 
-.Sidebar .sidebar-interno .botao-form-sidebar .text-branco {
+.Sidebar .sidebar-conteudo .botao-form-sidebar .text-branco {
     color: #fafafa !important;
+}
+
+.conteudo-interno {
+    padding: 6.5em 0 6em;
+}
+
+.sidebar-conteudo a.Link {
+    font-size: 12px !important;
+    font-family: "Hind", sans-serif;
+}
+
+.Sidebar-News-esquerda2 {
+    width: 88%;
+    float: left;
+    margin: 0 1.5em 0 0;
+}
+
+.Sidebar-News-direita2 {
+    margin: 3px 0px 0px 11px;
+    width: 84%;
+    float: left;
+    padding-top: 0px;
+}
+
+.Sidebar-News-direita2 h4.Sub-titulo-sidebar {
+    color: #000000;
+    font-size: 12px;
+    font-family: "Hind", sans-serif;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.Sidebar-News-direita2 p.Valor-produto-sidebar {
+    color: #ff0000;
+    font-size: 0.857em;
+    font-weight: 500;
+    font-family: "Hind", sans-serif;
+}
+
+hr.sidebar-saparador {
+    background: #e9e9e9;
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin: 9px 0 !important
+}
+
+.sessao-tag {
+    margin-top: 7px;
+}
+
+span.tags {
+    background: #caccce;
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 0 10px;
+    margin: 0 5px 5px 0;
+    line-height: 2.1em;
+    height: 1.91em;
+    font-size: 10px !important;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 700;
+    letter-spacing: 0.075em !important;
+    font-family: "Hind", sans-serif;
+}
+
+span.tags:hover {
+    background: #ff0000;
+    color: #fff;
 }
 
 
@@ -1403,22 +1521,67 @@ footer.bg-footer {
     border: none;
     background: #bfbfbf;
     border-radius: 0;
+    height: 3px;
 }
 
 .controls #price-range .ui-slider-range {
-    background: #fc047c;
+    background: #e21818;
+    height: 3px;
 }
 
 .textinputs {
-    padding: 1.5rem 0;
+    padding: 10px 0;
+    text-align: right;
+    font-family: "Hind", sans-serif;
+    font-size: 11px;
+    font-weight: 400px;
 }
 
 .textinputs input {
-    width: 4rem;
-    display: block;
-    float: left;
+    background: none !important;
+    border: none;
+    color: #e21818;
+    font-family: "Hind", sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    display: inline-grid;
+    width: 30px;
+    text-align: right;
 }
 
 .textinputs input:last-child {
-    float: right;
+    background: none !important;
+    border: none;
+    color: #e21818;
+    font-family: "Hind", sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    display: inline-grid;
+    width: 30px;
+    text-align: left;
+}
+
+.controls {
+    display: grid;
+    width: 95%;
+    margin: 24px auto 0px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    border: 1px solid #e21818 !important;
+    background: #e21818 !important;
+    font-weight: normal !important;
+    color: #454545 !important;
+    border-radius: 50% !important;
+    height: 9px !important;
+    width: 9px !important;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+    top: -1px !important;
 }
