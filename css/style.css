@@ -1710,3 +1710,175 @@ html .ui-button.ui-state-disabled:active {
     width: 80%;
     background: #fafafa;
 }
+
+.Produtos-detalhe .botao-red {
+    background: #ff0000;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 14px 40px;
+    font-family: "Hind", sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.Produtos-detalhe .botao-red:hover {
+    background: #141618;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 14px 40px;
+    font-family: "Hind", sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+div.quantity,
+.woocommerce-page div.product form.cart div.quantity {
+    margin: 0 0.5em 0 0;
+    width: 7.7em;
+    height: 3.28em;
+    position: relative;
+}
+
+div.quantity {
+    margin: 0 auto;
+    width: 90%;
+    height: 3.28em;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+div.quantity span,
+.woocommerce div.product form.cart div.quantity span,
+.woocommerce-page div.product form.cart div.quantity span {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 1.5em;
+    height: 50%;
+    text-align: center;
+    line-height: 1.3em;
+    cursor: pointer;
+}
+
+div.quantity span.q_inc,
+.woocommerce div.product form.cart div.quantity span.q_inc,
+.woocommerce-page div.product form.cart div.quantity span.q_inc {
+    top: 0px;
+}
+
+div.quantity span.q_dec,
+.woocommerce div.product form.cart div.quantity span.q_dec,
+.woocommerce-page div.product form.cart div.quantity span.q_dec {
+    top: 24px;
+    border-top: 1px solid #ffffff;
+}
+
+div.quantity span:before,
+.woocommerce div.product form.cart div.quantity span:before,
+.woocommerce-page div.product form.cart div.quantity span:before {
+    font-family: 'fontello';
+}
+
+div.quantity span.q_inc:before,
+.woocommerce div.product form.cart div.quantity span.q_inc:before,
+.woocommerce-page div.product form.cart div.quantity span.q_inc:before {
+    content: '\e835';
+}
+
+div.quantity span.q_dec:before,
+.woocommerce div.product form.cart div.quantity span.q_dec:before,
+.woocommerce-page div.product form.cart div.quantity span.q_dec:before {
+    content: '\e828';
+}
+
+div.quantity input[type="number"],
+.woocommerce div.product form.cart div.quantity input[type="number"],
+.woocommerce-page div.product form.cart div.quantity input[type="number"] {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    padding-right: 0;
+    border: none !important;
+    padding-left: 1em;
+    background: #fafafa;
+}
+
+div.quantity input[type="number"],
+.woocommerce div.product form.cart div.quantity input[type="number"]:focus,
+.woocommerce-page div.product form.cart div.quantity input[type="number"]:focus {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    padding-right: 0;
+    border: none !important;
+    padding-left: 1em;
+    background: #fafafa;
+}
+
+div.quantity span,
+.woocommerce div.product form.cart div.quantity span,
+.woocommerce-page div.product form.cart div.quantity span {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 1.5em;
+    height: 50%;
+    text-align: center;
+    line-height: 1.3em;
+    cursor: pointer;
+}
+
+.nav-tabs {
+    border: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057 !important;
+    background-color: #fff;
+    border: none !Important;
+    position: relative;
+    font-weight: bold;
+    font-size: 0.857em;
+    text-transform: uppercase;
+    border-bottom: #141618 2px solid !important;
+    padding: 8px 0px !important;
+    margin-right: 2em !important;
+}
+
+li.nav-item a.nav-link {
+    color: #495057 !important;
+    background-color: #fff;
+    border: none !Important;
+    position: relative;
+    font-weight: bold;
+    font-size: 0.857em;
+    text-transform: uppercase;
+    padding: 8px 0px !important;
+    margin-right: 2em !important;
+}
+
+li.nav-item a.nav-link:hover {
+    color: #495057 !important;
+    background-color: #fff;
+    border: none !Important;
+    position: relative;
+    font-weight: bold;
+    font-size: 0.857em;
+    text-transform: uppercase;
+    border-bottom: #141618 2px solid !important;
+    padding: 8px 0px !important;
+    margin-right: 2em !important;
+}
+
+h3.Titulo-tab-content {
+    margin-top: 0;
+    font-size: 1.625em;
+    font-weight: 400;
+    font-family: Butler !important;
+}
